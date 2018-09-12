@@ -4,7 +4,7 @@ import App from 'src/components/App'
 
 function mountApplication() {
   const root = document.getElementById('app')
-  m.render(root, m(App))
+  m.mount(root, App)
 }
 
 function init() {
