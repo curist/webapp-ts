@@ -1,6 +1,6 @@
 {
   "name": "webapp",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "scripts": {
     "start": "parcel src/index.html",
     "prebuild": "rm -rf dist",
@@ -11,13 +11,12 @@
     "@types/node": "^10.9.4",
     "@types/webpack-env": "^1.13.6",
     "parcel-bundler": "^1.10.1",
-    "typescript": "^3.0.3"
+    "typescript": "^3.1.1"
   },
   "alias": {
     "src": "./src"
   },
   "dependencies": {
-    "app": "^0.1.0",
     "mithril": "^1.1.6"
   }
 }
