@@ -1,7 +1,13 @@
 import m from 'mithril'
 
+import Counter from 'src/widgets/Counter'
+
 export default {
   view() {
-    return m('.foo', 'hello world')
-  }
+    return m('.app', [
+      m('h1', 'hello world!'),
+      m(Counter),
+      m(Counter),
+    ])
+  },
 }

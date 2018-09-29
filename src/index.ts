@@ -9,6 +9,7 @@ function mountApplication() {
 
 function init() {
   // TODO should/can require styles here
+  require('src/styles/main.less')
   mountApplication();
 }
 
