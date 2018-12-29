@@ -10,12 +10,13 @@ function mountApplication() {
 function init() {
   // TODO should/can require styles here
   require('src/styles/main.less')
-  mountApplication();
+  mountApplication()
 }
 
-window.onload = init;
+window.onload = init
 
 if(module.hot) {
-  module.hot.accept();
-  init();
+  module.hot.accept(function () {
+    init()
+  })
 }
