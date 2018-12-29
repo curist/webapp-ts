@@ -16,7 +16,6 @@ function init() {
 window.onload = init
 
 if(module.hot) {
-  module.hot.accept(function () {
-    init()
-  })
+  module.hot.accept()
+  init()
 }

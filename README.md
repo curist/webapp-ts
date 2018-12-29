@@ -14,3 +14,7 @@ npm start
 ```sh
 npm run build
 ```
+
+# HMR not working
+
+https://parceljs.org/hmr.html#safe-write
